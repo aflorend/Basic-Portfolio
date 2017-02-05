@@ -168,7 +168,7 @@ footer {
 }
 
 input[type=text] {
-	width: 97%;
+	width: 96%;
 	margin-top: 5px;
 	margin-bottom: 20px;
 	color: #777;
@@ -176,15 +176,18 @@ input[type=text] {
 	border-style: solid;
 	border-width: 2px;
 	padding: 10px;
+	font-size: 1em;
 }
 
 textarea {
-	width: 100%;
+	width: 98.5%;
 	border-color: #777;
 	border-style: solid;
 	border-width: 2px;
 	margin-top: 5px;
 	height: 200px;
+	font-size: 1em;
+	color: #777;
 }
 
 input#submit {
@@ -195,7 +198,7 @@ input#submit {
 	background-color: #4aaaa5;
 	border: none;
 	font-size: 1em;
-	color: #777;
+	color: #fff;
 	margin-top: 10px;
 	transition: background-color 0.5s ease;
 }
@@ -209,6 +212,8 @@ input#submit:hover {
 	padding: 0;
 	position: relative;
 	width: 292px;
+	transition: all 0.5s ease-in-out;
+	opacity: 0.8;
 }
 
 .portfolio-pics img {
@@ -216,6 +221,10 @@ input#submit:hover {
 	float: left;
 	margin: auto;
 	margin-bottom: 20px;
+}
+
+.portfolio-pics:hover {
+	opacity: 1.0;
 }
 
 .caption {
